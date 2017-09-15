@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1106.0" y="89.0">WhetherItemClass</node>
+    <node x="896.0" y="77.5">DateClass</node>
+    <node x="652.0" y="111.0">SystemInfoClass</node>
+    <node x="0.0" y="100.0">RandomNameClass</node>
+    <node x="197.0" y="33.5">AppStatisticsClass</node>
+    <node x="1357.0" y="0.0">JsonParserClass</node>
+    <node x="639.0" y="396.0">MainClass</node>
+    <node x="423.0" y="33.0">RcSongClass</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="MainClass" target="JsonParserClass">
+      <point x="116.07142857142856" y="-136.0" />
+      <point x="880.0714285714286" y="376.0" />
+      <point x="1501.75" y="376.0" />
+      <point x="48.25" y="148.0" />
+    </edge>
+    <edge source="MainClass" target="AppStatisticsClass">
+      <point x="-80.35714285714289" y="-136.0" />
+      <point x="683.6428571428571" y="356.0" />
+      <point x="248.5" y="356.0" />
+      <point x="-51.5" y="114.5" />
+    </edge>
+    <edge source="MainClass" target="RcSongClass">
+      <point x="-44.64285714285711" y="-136.0" />
+      <point x="719.3571428571429" y="336.0" />
+      <point x="475.25" y="336.0" />
+      <point x="-52.25" y="115.0" />
+    </edge>
+    <edge source="MainClass" target="WhetherItemClass">
+      <point x="80.35714285714289" y="-136.0" />
+      <point x="844.3571428571429" y="356.0" />
+      <point x="1279.25" y="356.0" />
+      <point x="57.75" y="59.0" />
+    </edge>
+    <edge source="MainClass" target="RandomNameClass">
+      <point x="-98.21428571428578" y="-136.0" />
+      <point x="665.7857142857142" y="366.0" />
+      <point x="132.75" y="366.0" />
+      <point x="44.25" y="48.0" />
+    </edge>
+    <edge source="MainClass" target="DateClass">
+      <point x="44.64285714285711" y="-136.0" />
+      <point x="808.6428571428571" y="336.0" />
+      <point x="1038.5" y="336.0" />
+      <point x="47.5" y="70.5" />
+    </edge>
+    <edge source="MainClass" target="SystemInfoClass">
+      <point x="-8.928571428571445" y="-136.0" />
+      <point x="755.0714285714286" y="316.0" />
+      <point x="708.0" y="316.0" />
+      <point x="-56.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6585987261146496" x="775.0" y="334.0" />
+  <SelectedNodes>
+    <node>SystemInfoClass</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
