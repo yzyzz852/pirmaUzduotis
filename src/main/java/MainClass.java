@@ -33,9 +33,9 @@ public class MainClass {
             System.out.println("3\t Tinklo inforamcija");
             System.out.println("4\t Rc grojama daina");
             System.out.println("5\t Oro temperatura");
-            System.out.println("6\t Visa informacija");
-            System.out.println("7\t Iseiti");
-
+            System.out.println("6\t Gauti sistemos informacija");
+            System.out.println("7\t Visa informacija");
+            System.out.println("8\t Iseiti");
             System.out.println("Jusu pasirinkimas:");
 
             //Get user's choice
@@ -59,15 +59,19 @@ public class MainClass {
                 case 5:
                     System.out.println("Siuo metu mieste "+wheter.getCityName() +" yra " +wheter.getWheter());
                     break;
-                case 6:
+                case 7:
                     System.out.println("Proramos pavadinimas: " +appStat.getAppName()+ "\nAtsisiuntimu kiekis: " + appStat.getDownloadsSize());
                     System.out.println("\nSiandien yra: " + dates.todaysDay() + "\nIki naujuju liko: " + dates.daysToNewYear().getDays());
                     System.out.println("\nJusu IP: " +jsonParser.getIp() + "\nJusu laiko zona: " +jsonParser.getTimeZone()+
                             "\nJusu salis: "+jsonParser.getCountryName()+ "\nJusu salies kodas: "+jsonParser.getCountryCode());
                     System.out.println("\nSiuo metu Radio centras groja: "+song.getTitle() +" - " +song.getSongName());
                     System.out.println("\nSiuo metu mieste "+wheter.getCityName() +" yra " +wheter.getWheter());
+                    systemInfo.getSystemMemoryInfo();
                     break;
-                case 7:
+                case 6:
+                    systemInfo.getSystemMemoryInfo();
+                    break;
+                case 8:
                     userUse = false;
                     break;
                 default:

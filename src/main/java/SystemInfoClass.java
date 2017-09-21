@@ -8,10 +8,10 @@ public class SystemInfoClass {
 
         File[] roots = File.listRoots();
         for (File root : roots) {
-            System.out.println("File system root: " + root.getAbsolutePath());
-            System.out.println("Total space (bytes): " + root.getTotalSpace());
-            System.out.println("Free space (bytes): " + root.getFreeSpace());
-            System.out.println("Usable space (bytes): " + root.getUsableSpace());
+            System.out.println("Diskas: " + root.getAbsolutePath());
+            System.out.println("Bendra talpa (bytes): " + root.getTotalSpace());
+            System.out.println("Laiva atmintis(bytes): " + root.getFreeSpace());
+            System.out.println("Panaudota atmintis(bytes): " + root.getUsableSpace());
         }
     }
 
